@@ -1,5 +1,5 @@
 import { connect } from 'cloudflare:sockets';
-const listProxy = ['188.166.255.195'],
+const listProxy = ['178.62.17.85'],
 
 ];
 let proxyIP;
