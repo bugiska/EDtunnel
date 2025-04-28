@@ -7,7 +7,7 @@ export default {
     async fetch(request, ctx) {
       try {
         proxyIP = proxyIP;
-        const url = "https://dns.cloudflare/dns-query';
+        const url ='https://dns.google/dns-query';
         const upgradeHeader = request.headers.get('Upgrade');
         for (const entry of listProxy) {
           if (url.pathname === entry.path) {
